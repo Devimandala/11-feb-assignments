@@ -1,0 +1,34 @@
+sno=int(input('enter student number:'))
+
+sname=input('enter student name')
+
+sgroup=input('enter student group:')
+
+s1=int(input('enter  OS marks:'))
+
+s2=int(input('enter  java marks:'))
+
+s3=int(input('enter  accounts marks:'))
+
+s4=int(input('enter  telugu marks:'))
+
+s5=int(input('enter  english marks:'))
+
+s6=int(input('enter  analytical skills :'))
+
+total= s1 + s2 + s3 + s4 + s5 + s6
+ 
+avg=total/6
+ 
+if avg>=91:
+     print('O grade')
+elif avg>=81:
+     print('A grade')
+elif avg>=71:
+     print('B grade')
+elif avg>=61:
+     print('C grade')
+elif avg>=51:
+     print('D grade')
+else:
+     print('fail')
